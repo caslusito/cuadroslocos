@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es la parte la pagina web donde hay diversas formas de contactarnos">
+	<meta name="keywords"  content="CONTACTO, EMAIL, MENSAJE, FORMULARIO">
+    <!-- BOOTSTRAP  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Cuadros Locos | Contactanos</title>
+    <!-- ESTILOS CSS  -->
+    <link rel="stylesheet" href="../estilos/main.css">
+    <!-- SCRIPT  -->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <header class="header">
+        <nav class="header__nav navbar navbar-expand-lg navbar-light">
+            <div class="header__nav__div container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../multimedia/imagenes/logo.png" alt="logo de cuadros locos" width="250" height="200"
+                        class="d-inline-block align-text-top">
+                </a>
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav header__nav__lista">
+                        <a class="header__nav__lista__link nav-link active m-3 " aria-current="page" href="../index.html">Home</a>
+                        <a class="header__nav__lista__link nav-link m-3" href="../pages/faq.html">Faq</a>
+                        <a class="header__nav__lista__link nav-link m-3" href="#">Contactanos</a>
+                        <a class="header__nav__lista__link nav-link m-3" href="../pages/productos.html">Productos</a>
+                        <a class="header__nav__lista__link nav-link m-3" href="../pages/tematica.html">Tematica</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN  -->
+    <div class="d-flex justify-content-center container-form">
+        <div class="info-form container-form__div">
+            <h2 class="container-form__div__titulo">CONTACTO</h2>
+            <p class="container-form__div__text">Si desea contactar con nosotros, por favor, complete el siguiente formulario y nos pondremos en contacto
+                con usted. La información suministrada a Cuadros Locos será confidencial.</p>
+            <a href="#"><i class="iconos fa fa-phone"> </i>164-8256-12</a>
+            <a href="#"><i class="iconos fa fa-envelope"> </i>cuadrosl@gmail.com</a>
+            <a href="#"><i class="iconos fa fa-map-marked"> </i>Rosario, Argentina</a>
+            <a href="#"><i class="iconos fas fa-map-marker-alt"> </i>Pellegrini 914</a>
+        </div>
+        <form class="container-form__form" action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Ingresa Tu Nombre" class="campo">
+            <input type="email" name="email" placeholder="Ingresa tu correo" class="campo">
+            <textarea class="campo" name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+            <input type="submit" name="enviar" value="enviar mensaje" class="btn-enviar">
+        </form>
+    </div>
+    <!-- FOOTER  -->
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__list__item"><a class="footer__list__item__link" href="../pages/faq.html">PREGUNTAS
+                    FRECUENTES</a></li>
+            <li class="footer__list__item"><a class="footer__list__item__link" href="../pages/faq.html">QUIENES
+                    SOMOS?</a></li>
+            <li class="footer__list__item"><a class="footer__list__item__link" href="#">CONTACTO</a></li>
+        </ul>
+        <div>
+            <p class="footer__redes-sociales">REDES SOCIALES</p>
+            <a href="https://www.facebook.com"><img src="../multimedia/imagenes/facebook.png" width="50px" alt="facebook"></a>
+            <a href="https://www.twitter.com/"><img src="../multimedia/imagenes/twitter.png" width="50px" alt="twitter"></a>
+            <a href="https://www.instagram.com/"><img src="../multimedia/imagenes/instragram.png" width="50px" alt="instagram"></a>
+        </div>
+        <p>CONTACTO</p>
+        <p>|</p>
+        <p>&copy COPYRIGHT CUADROS LOCOS - 2022. TODOS LOS DERECHOS RESERVADOS.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

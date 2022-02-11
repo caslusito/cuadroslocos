@@ -1,0 +1,185 @@
+/*----ROOT Y GENERALES-----*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+}
+.tituloPrincipal {
+    font-size: 55px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+    }
+
+.tituloTematica {
+    font-size: 55px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.tituloSecundario {
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+.tituloPreguntas {
+    font-size: 55px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+.tituloFaq {
+    font-size: 26px;
+    font-weight:bolder;
+    letter-spacing: 2px;
+    text-decoration:underline;
+    padding: 1rem;
+}
+
+/*-----GRID-----*/
+
+/*----HEADER NAV----*/
+header {
+    background-image: linear-gradient(to top, #ffd2d2 ,#ffffb3) ;  
+    
+}
+
+header nav .menu {
+    display: flex;
+    list-style: none;
+}
+
+header nav .navbar-nav a {
+    color:rgb(46, 10, 10);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+} 
+.menu li:hover ul {
+    display: block;
+}
+.navbar-nav a:hover {
+    background-color: rgb(199, 164, 48);
+    color: rgb(32, 0, 0);
+}
+/*----CAROUSEL -----*/
+.slide {
+    margin-top: 10px;
+}
+.slide img {
+    height: 65vh;
+}
+/*----MAIN-----*/
+.nosotros {
+    text-align: justify;
+}
+section {
+    padding: 3rem;
+}
+
+.padre-flex {
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.padre-flex img {
+    border: 13px solid black;
+}
+
+.padre-flex img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+} 
+
+.pinturasExclusivas img {
+
+    border: 13px solid black;
+}
+
+.animales {
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+}
+
+.animales img {
+    border: 10px solid black;
+}
+
+.clasicos img {
+    border: 9px solid black;
+}
+
+.tematica {
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.tematica p {
+    font-size: 3rem;
+    color: white;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-shadow: 0 0 8px black;
+}
+
+.tematica:hover {
+    transform: scale(1.1);
+} 
+
+.tematica img {
+    border: 13px solid black;
+}
+
+/*----FOOTER-----*/
+footer{
+    background-image: linear-gradient(to bottom, #fffcc7 ,#ffd1c1) ;  
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 200px;
+
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 2.3rem;
+}
+footer ul li a {
+    text-decoration: none;
+    color:rgb(46, 10, 10);
+}
+
+.p-frecuentes a:hover {
+    background-color: rgb(199, 164, 48);
+    color: rgb(32, 0, 0);
+    
+}
+.redes-sociales {
+    letter-spacing: 1px;
+    margin: 5px;
+}
+/* ----MEDIA QUERYS---*/
+@media screen {
+    
+}

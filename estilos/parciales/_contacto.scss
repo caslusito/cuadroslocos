@@ -1,0 +1,79 @@
+@import "./vars" ;
+@import "./media-queries" ;
+
+/*----CONTACTO-----*/
+.container-form {
+    width: 100%;
+    max-width: 100px;
+    margin: auto;
+    grid-gap: 50px;
+    margin-top: 90px;
+    @include movil{
+        flex-wrap: wrap;
+    }
+    @include tablet{
+        flex-wrap: wrap;
+    }
+    &__div {
+            &__titulo {
+                margin-bottom: 15px;
+                font-size: 35px;
+            }
+            &__text {
+                font-size: 17px;
+                line-height: 1.6;
+                margin-bottom: 30px;
+            }
+            a {
+                font-size: 17px;
+                display: inline-block;
+                text-decoration: none;
+                width: 100%;
+                margin-bottom: 15px;
+                color: black;
+                font-weight: 700;
+
+            .iconos {
+                color: rgb(199, 164, 48);
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.container-form__form .campo {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid ;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form__form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 140px;
+    min-height: 140px;
+    @include movil{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 100px;
+        min-height: 100px;
+    }
+}
+.container-form__form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.container-form__form .btn-enviar:hover {
+    background: rgb(199, 164, 48);
+}

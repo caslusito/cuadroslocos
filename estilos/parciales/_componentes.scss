@@ -1,0 +1,25 @@
+@import "./vars" ;
+@import "./media-queries" ;
+
+/*----TITULOS-----*/
+.tituloPrincipal {
+    font-size: 55px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+    /*----MEDIAQUERIES-----*/
+    @include movil{
+        font-size: 35px;
+    }
+    }
+/*----CAROUSEL -----*/
+.slide {
+    margin-top: 10px;
+}
+.slide img {
+    height: 65vh;
+}
+
+

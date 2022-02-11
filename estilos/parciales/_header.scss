@@ -1,0 +1,25 @@
+@import "./vars" ;
+@import "./media-queries" ;
+
+/*----HEADER-----*/
+.header {
+    background-image: linear-gradient(to top, #ffd2d2 ,#ffffb3) ;  
+    &__nav {
+        &__lista {
+            &__link {
+                color:rgb(46, 10, 10);
+                text-decoration: none;
+                display: inline-block;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                margin-left: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                    &:hover {
+                        background-color: rgb(199, 164, 48);
+                        color: rgb(32, 0, 0);
+                } 
+            }
+        }
+    }
+}

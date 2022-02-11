@@ -1,0 +1,38 @@
+@import "./vars" ;
+@import "./media-queries" ;
+
+/*----FOOTER-----*/
+.footer{
+    background-image: linear-gradient(to bottom, #fffcc7 ,#ffd1c1) ;  
+    display:$flexible ;
+    justify-content:space-around;
+    align-items: center;
+    height: 200px;
+    /*----MEDIAQUERIES-----*/
+    @include tablet{
+        height: 250px;
+    }
+    @include movil{
+        flex-wrap: wrap;
+        height: 450px;
+    }
+    &__list {
+        list-style-type: none;
+        &__item {
+            margin: 2.2rem;
+            &__link {
+                text-decoration: none;
+                color:rgb(46, 10, 10);
+                    &:hover  {
+                    background-color: 
+                    rgb(199, 164, 48);
+                    color: rgb(32, 0, 0);
+                }
+            }
+        }
+    }
+    &__redes-sociales {
+        letter-spacing: 1px;
+        margin: 5px;
+    }
+}
