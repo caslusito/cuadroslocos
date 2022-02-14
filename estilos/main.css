@@ -47,7 +47,7 @@
 
 .nosotros__div {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   opacity: 0.9;
 }
 
@@ -55,6 +55,19 @@
   .nosotros__div {
     width: auto;
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros__div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -92,12 +105,19 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nosotros__div__titulo__texto {
+    font-size: 15px;
+  }
+}
+
 .nosotros__div__titulo__texto__imagen {
-  width: 52vh;
+  width: 54vh;
   float: left;
   border-radius: 5px;
   margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 55px;
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 320px) {
@@ -124,6 +144,8 @@
 .tematica__imagen {
   border: 10px solid black;
   width: 90vh;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 @media screen and (max-width: 320px) {
@@ -134,7 +156,7 @@
 
 @media screen and (max-width: 768px) {
   .tematica__imagen {
-    width: 25vh;
+    width: 38vh;
   }
 }
 
@@ -158,60 +180,40 @@
 
 @media screen and (max-width: 320px) {
   .tematica__imagen__texto {
-    font-size: 15px;
+    font-size: 25px;
   }
 }
 
-/*----IMAGENES CLASICOS-----*/
-.clasicos img {
+@media screen and (max-width: 768px) {
+  .tematica__imagen__texto {
+    font-size: 35px;
+  }
+}
+
+/*----PRODUCTOS-----*/
+.padre-flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.padre-flex img {
+  border: 13px solid black;
+}
+
+.padre-flex img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*----PINTURAS CLASICAS-----*/
+.imagenes-clasicas {
   border: 10px solid black;
-}
-
-@media screen and (max-width: 320px) {
-  .imagenes-clasicos {
-    width: 200px;
-  }
-}
-
-.padre-flex {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.padre-flex img {
-  border: 13px solid black;
-}
-
-.padre-flex img:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-/*----TEMATICA-----*/
-.padre-flex {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.padre-flex img {
-  border: 13px solid black;
-}
-
-.padre-flex img:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 /*----IMAGENES TEMATICAS-----*/
@@ -385,7 +387,7 @@
 
 @media screen and (max-width: 320px) {
   .tituloPrincipal {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -414,26 +416,10 @@
   gap: 35px 35px;
   grid-auto-flow: row;
       grid-template-areas: "img1 img2"
- "img3 img4";
+"img3 img4";
 }
 
 @media screen and (max-width: 320px) {
-  .container {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 35px;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .container {
     -webkit-box-align: center;
         -ms-flex-align: center;

@@ -19,12 +19,7 @@
         flex-direction: column;
         gap: 35px;
     }
-    @include tablet{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-    }
+
 }
 
 .img1 { grid-area: img1;

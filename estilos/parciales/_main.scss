@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     &__div {
         width: 100%;
-        height: 100vh;
+        height: 85vh;
         opacity: 0.9;
         @include movil{
             width: auto;
@@ -20,8 +20,13 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+        @include tablet{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         &__titulo {
-            margin: 5rem;
+            margin: 5rem ;
             text-align: center;
             @include movil{
                 text-align: center;
@@ -36,12 +41,16 @@
                 @include movil{
                     font-size: 11px;
                 }
+                @include tablet{
+                    font-size: 15px;
+                }
                 &__imagen {
-                    width: 52vh;
+                    width: 54vh;
                     float: left;
                     border-radius: 5px;
                     margin-right: 15px;
-                    margin-left: 15px;
+                    margin-left: 55px;
+                    border: 1px solid black ;
                     @include movil{
                     max-width: 100%;
                     margin-right: 50%;
@@ -64,11 +73,13 @@
     &__imagen {
         border: $border;
         width: 90vh;
+        margin-top: 1rem;
+        margin-right: 1rem;
         @include movil{
             width: 25vh;
         }
         @include tablet{
-            width: 25vh;
+            width: 38vh;
         }
             &:hover {  
                 transform: scale(1.03);
@@ -83,39 +94,17 @@
                     transform: translate(-50% , -50%);
                     text-shadow: 0 0 8px black;
                 @include movil{
-                font-size: 15px;
+                font-size: 25px;
+            }
+                @include tablet{
+                font-size: 35px;
             }
         }
     }
 }
 
 
-/*----IMAGENES CLASICOS-----*/
-.clasicos img {
-    border: $border;
-}
-.imagenes-clasicos{
-    @include movil{
-        width: 200px;
-    }
-    }
-
-
-    .padre-flex {
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.padre-flex img {
-    border: 13px solid black;
-}
-
-.padre-flex img:hover {
-    transition: 1s;
-    transform: scale(1.1);
-}
-
-/*----TEMATICA-----*/
+/*----PRODUCTOS-----*/
 .padre-flex {
     flex-flow: row wrap;
     justify-content: space-around;
@@ -128,7 +117,12 @@
 .padre-flex img:hover {
     transition: 1s;
     transform: scale(1.1);
-} 
+}
+
+/*----PINTURAS CLASICAS-----*/
+.imagenes-clasicas {
+    border : $border ;
+}
 
 /*----IMAGENES TEMATICAS-----*/
 .imagenes-tematica {
