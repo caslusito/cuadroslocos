@@ -24,11 +24,17 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            margin-bottom: 10rem;
         }
         &__titulo {
             margin: 5rem ;
             text-align: center;
             @include movil{
+                text-align: center;
+                margin-bottom: auto;
+                margin-top: 28rem;
+            }
+            @include tablet{
                 text-align: center;
             }
             &__texto {
@@ -38,11 +44,14 @@
                 line-height: 1.5;
                 border-radius: 5px;
                 text-align: justify;
+                margin: 1.5rem;
                 @include movil{
-                    font-size: 11px;
+                    font-size: 15px;
+                    margin: 0;
                 }
                 @include tablet{
                     font-size: 15px;
+                    margin: 0.5rem;
                 }
                 &__imagen {
                     width: 54vh;
@@ -52,11 +61,10 @@
                     margin-left: 55px;
                     border: 1px solid black ;
                     @include movil{
-                    max-width: 100%;
-                    margin-right: 50%;
+                        display: none;
                     }
                     @include tablet{
-                        width: 50vh;
+                        display: none;
                     }
                 }
             }
@@ -76,10 +84,10 @@
         margin-top: 1rem;
         margin-right: 1rem;
         @include movil{
-            width: 25vh;
+            width: 100%;
         }
         @include tablet{
-            width: 38vh;
+            width: 105%;
         }
             &:hover {  
                 transform: scale(1.03);
@@ -94,10 +102,10 @@
                     transform: translate(-50% , -50%);
                     text-shadow: 0 0 8px black;
                 @include movil{
-                font-size: 25px;
+                font-size: 20px;
             }
                 @include tablet{
-                font-size: 35px;
+                font-size: 30px;
             }
         }
     }
@@ -120,10 +128,11 @@
 }
 
 /*----PINTURAS CLASICAS-----*/
-.imagenes-clasicas {
-    border : $border ;
+.titulo-clasicas {
+@include movil{
+    margin-top: 20rem;
+    }
 }
-
 /*----IMAGENES TEMATICAS-----*/
 .imagenes-tematica {
     @include movil{
