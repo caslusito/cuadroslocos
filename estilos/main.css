@@ -439,7 +439,8 @@
   grid-auto-columns: 1fr;
   gap: 35px 35px;
   grid-auto-flow: row;
-      grid-template-areas: "img1 img2" "img3 img4";
+      grid-template-areas: "img1 img2"
+"img3 img4";
 }
 
 @media screen and (max-width: 350px) {
@@ -459,26 +460,26 @@
 }
 
 .img1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
+  -ms-grid-rows: 1;
+  -ms-grid-columns: 1;
   grid-area: img1;
 }
 
 .img2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  -ms-grid-rows: 1;
+  -ms-grid-columns: 2;
   grid-area: img2;
 }
 
 .img3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
+  -ms-grid-rows: 2;
+  -ms-grid-columns: 1;
   grid-area: img3;
 }
 
 .img4 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-rows: 2;
+  -ms-grid-columns: 2;
   grid-area: img4;
 }
 /*# sourceMappingURL=main.css.map */
