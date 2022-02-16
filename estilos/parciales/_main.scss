@@ -84,10 +84,10 @@
         margin-top: 1rem;
         margin-right: 1rem;
         @include movil{
-            width: 100%;
+            width: 50%;
         }
         @include tablet{
-            width: 105%;
+            width: 100%;
         }
             &:hover {  
                 transform: scale(1.03);
