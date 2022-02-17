@@ -51,7 +51,7 @@
   opacity: 0.9;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .nosotros__div {
     width: auto;
     height: auto;
@@ -85,7 +85,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .nosotros__div__titulo {
     text-align: center;
     margin-bottom: auto;
@@ -109,7 +109,7 @@
   margin: 1.5rem;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .nosotros__div__titulo__texto {
     font-size: 15px;
     margin: 0;
@@ -124,7 +124,7 @@
 }
 
 .nosotros__div__titulo__texto__imagen {
-  width: 54vh;
+  width: 56vh;
   float: left;
   border-radius: 5px;
   margin-right: 15px;
@@ -132,7 +132,7 @@
   border: 1px solid black;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .nosotros__div__titulo__texto__imagen {
     display: none;
   }
@@ -159,7 +159,7 @@
   margin-right: 1rem;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .tematica__imagen {
     width: 50%;
   }
@@ -189,7 +189,7 @@
   text-shadow: 0 0 8px black;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .tematica__imagen__texto {
     font-size: 20px;
   }
@@ -223,14 +223,14 @@
 }
 
 /*----PINTURAS CLASICAS-----*/
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .titulo-clasicas {
     margin-top: 20rem;
   }
 }
 
 /*----IMAGENES TEMATICAS-----*/
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .imagenes-tematica {
     margin: 1rem;
   }
@@ -251,7 +251,7 @@
   margin-top: 90px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .container-form {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -309,11 +309,11 @@
 .container-form__form textarea {
   max-width: 530px;
   min-width: 530px;
-  max-height: 140px;
-  min-height: 140px;
+  max-height: 220px;
+  min-height: 220px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .container-form__form textarea {
     max-width: 300px;
     min-width: 300px;
@@ -335,7 +335,7 @@
   transition: all 300ms ease;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .container-form__form .btn-enviar {
     margin-bottom: 3rem;
   }
@@ -367,7 +367,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -409,7 +409,7 @@
   /*----MEDIAQUERIES-----*/
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .tituloPrincipal {
     font-size: 30px;
   }
@@ -439,11 +439,10 @@
   grid-auto-columns: 1fr;
   gap: 35px 35px;
   grid-auto-flow: row;
-      grid-template-areas: "img1 img2"
-"img3 img4";
+      grid-template-areas: "img1 img2" "img3 img4";
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .container {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -460,26 +459,26 @@
 }
 
 .img1 {
-  -ms-grid-rows: 1;
-  -ms-grid-columns: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: img1;
 }
 
 .img2 {
-  -ms-grid-rows: 1;
-  -ms-grid-columns: 2;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
   grid-area: img2;
 }
 
 .img3 {
-  -ms-grid-rows: 2;
-  -ms-grid-columns: 1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: img3;
 }
 
 .img4 {
-  -ms-grid-rows: 2;
-  -ms-grid-columns: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: img4;
 }
 /*# sourceMappingURL=main.css.map */
