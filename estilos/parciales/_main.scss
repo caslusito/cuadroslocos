@@ -112,7 +112,7 @@
 }
 
 
-/*----PRODUCTOS-----*/
+/*----TEMATICAS-----*/
 .padre-flex {
     flex-flow: row wrap;
     justify-content: space-around;
@@ -126,13 +126,6 @@
     transition: 1s;
     transform: scale(1.1);
 }
-
-/*----PINTURAS CLASICAS-----*/
-.titulo-clasicas {
-@include movil{
-    margin-top: 20rem;
-    }
-}
 /*----IMAGENES TEMATICAS-----*/
 .imagenes-tematica {
     @include movil{
@@ -142,6 +135,7 @@
         margin: 1rem;
     }
 }
+
 
 
 

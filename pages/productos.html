@@ -46,33 +46,63 @@
         </nav>
     </header>
     <!-- MAIN  -->
-    <section id="galeria" class="container">
-        <div class="text-center pt-5">
-            <h1>galeria</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis excepturi ad blanditiis praesentium
-                maiores autem sed itaque minus, fugiat laborum.</p>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="../multimedia/imagenes/autoretrato1.jpg" alt="Galeria Imagenes Clasicas">
-            </div>
-            <div class="col-lg-4">
-                <img src="../multimedia/imagenes/autoretrato2.jpg" alt="Galeria Imagenes Clasicas">
-            </div>
-            <div class="col-lg-4">
-                <img src="../multimedia/imagenes/autoretrato3.jpg" alt="Galeria Imagenes Clasicas">
-            </div>
-            <div class="col-lg-4">
-                <img src="../multimedia/imagenes/autoretrato4.jpg" alt="Galeria Imagenes Clasicas">
-            </div>
-            <div class="col-lg-4">
-                <img src="../multimedia/imagenes/clasico5.jpg" alt="Galeria Imagenes Clasicas">
-            </div>
-            <div class="col-lg-4">
-                <img src="../multimedia/imagenes/clasicas4.jpg" alt="Galeria Imagenes Clasicas">
+    <section class="galeria">
+        <h1 class="text-center tituloPrincipal">GALERIA</h1>
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <img src="../multimedia/imagenes/autoretrato1.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/autoretrato2.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/autoretrato3.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/autoretrato4.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/clasicas1.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/clasicas2.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/clasico5.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/clasicas4.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/puntillismo1.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/puntillismo2.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/puntillismo3.gif" class="galeria-item" alt="galeria de imagenes">
+                </div>
+                <div class="col">
+                    <img src="../multimedia/imagenes/puntillismo4.jpg" class="galeria-item" alt="galeria de imagenes">
+                </div>
             </div>
         </div>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="galeria-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../multimedia/imagenes/clasicas4.jpg" class="modal-img" alt="modal img">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- FOOTER  -->
     <footer class="footer">
         <ul class="footer__list">

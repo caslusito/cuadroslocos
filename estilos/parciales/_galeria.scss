@@ -1,2 +1,17 @@
 @import "./vars" ;
 @import "./media-queries" ;
+
+.galeria {
+    padding: 100px 0;
+}
+.galeria img {
+    padding: 50px;
+    margin-top: 50px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#galeria-modal .modal-img {
+    width: 100%;
+}
