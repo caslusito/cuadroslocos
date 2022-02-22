@@ -268,6 +268,12 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .container-form__div__text {
+    font-size: 15px;
+  }
+}
+
 .container-form__div a {
   font-size: 17px;
   display: inline-block;
@@ -287,6 +293,7 @@
 .container-form__div a .iconos {
   color: #c7a430;
   margin-right: 10px;
+  margin-top: 1rem;
 }
 
 .container-form__form .campo {
@@ -326,6 +333,7 @@
   cursor: pointer;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 320px) {
