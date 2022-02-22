@@ -201,38 +201,97 @@
   }
 }
 
-/*----TEMATICAS-----*/
-.padre-flex {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.padre-flex img {
-  border: 13px solid black;
-}
-
-.padre-flex img:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-/*----IMAGENES TEMATICAS-----*/
+/*----PINTURAS CLASICAS-----*/
 @media screen and (max-width: 320px) {
-  .imagenes-tematica {
-    margin: 1rem;
+  .titulo-clasicas {
+    margin-top: 18rem;
+  }
+}
+
+/*----TEMATICAS-----*/
+.contenedor figure {
+  position: relative;
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .contenedor figure {
+    margin-top: 2rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .imagenes-tematica {
-    margin: 1rem;
+  .contenedor figure {
+    margin-top: 2rem;
   }
+}
+
+.contenedor figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(145, 147, 148, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.contenedor figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor figure:hover > img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.contenedor figure .capa h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.contenedor figure .capa p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.padre-flex {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.padre-flex img {
+  border: 13px solid black;
 }
 
 /*----CONTACTO-----*/
