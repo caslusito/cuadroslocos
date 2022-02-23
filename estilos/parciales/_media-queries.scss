@@ -11,3 +11,58 @@
     }
     
 }
+
+@media (max-width:1440px) {
+.tematica__imagen {
+    width: 100%;
+}
+.tematica__imagen__texto {
+    font-size: 40px;
+}
+.titulo-clasicas {
+    margin-top: 5rem;
+}
+}
+@media (max-width:1050px) {
+.titulo-clasicas {
+    margin-top: 10rem;
+}
+}
+@media (max-width:900px) {
+.titulo-clasicas {
+    margin-top: 15rem;
+}
+}
+@media (max-width:830px) {
+.titulo-clasicas {
+    margin-top: 20rem;
+}
+}
+@media (max-width:767px) {
+.tematica__imagen__texto {
+    font-size: 30px;
+}
+}
+@media (max-width:500px) {
+.tematica__imagen__texto {
+    font-size: 25px;
+}
+.tematica__imagen__texto {
+    font-size: 20px;
+}
+.footer {
+    flex-wrap: wrap;
+    height: 400px;
+}
+.tituloPrincipal {
+    font-size: 35px;
+}
+}
+@media (max-width:375px) {
+.tematica__imagen {
+    width: 100%;
+}
+.titulo-clasicas {
+    margin-top: 20rem;
+}
+}
