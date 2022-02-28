@@ -6,7 +6,7 @@
     width: 100%;
     max-width: 100px;
     margin: auto;
-    grid-gap: 50px;
+    gap: 50px;
     margin-top: 90px;
     @include movil{
         flex-wrap: wrap;

@@ -224,7 +224,6 @@
 }
 
 .nosotros__div__titulo__texto {
-  z-index: 1;
   font-size: 15px;
   padding: 20px 20px;
   line-height: 1.5;
@@ -485,7 +484,7 @@
   width: 100%;
   max-width: 100px;
   margin: auto;
-  grid-gap: 50px;
+  gap: 50px;
   margin-top: 90px;
 }
 
