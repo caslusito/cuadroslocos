@@ -37,9 +37,6 @@
     @include movil{
         width: 85%;
     }
-    @include movil-l{
-        margin-left: 12px;
-    }
     @include tablet{
         margin-left: 1px;
     }
@@ -71,6 +68,9 @@
 .light-box img {
     width: 100%;
     max-height: 60vh;
+    @include tablet{
+        width: 91%;
+    }
 }
 
 .light-box:target {

@@ -40,6 +40,9 @@
                 @include tablet{
                     font-size: 13px;
                 }
+                @include movil-l{
+                    display: none;
+                }
             .iconos {
                 color: rgb(199, 164, 48);
                 margin-right: 10px;
@@ -68,6 +71,12 @@
         min-width: 300px;
         max-height: 100px;
         min-height: 100px;
+    }
+    @include movil-l{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 200px;
+        min-height: 200px;
     }
 }
 .container-form__form .btn-enviar {
