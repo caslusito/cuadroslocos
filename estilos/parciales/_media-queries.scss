@@ -1,23 +1,25 @@
+/*----MIXIN TABLET-----*/
 @mixin tablet {
     @media screen and (max-width: 768px) {
         @content; 
     }
 }
 
-
+/*----MIXIN MOVIL-----*/
 @mixin movil {
     @media screen and (max-width: 320px){
         @content; 
     }
     
 }
+/*----MIXIN MOVIL-L-----*/
 @mixin movil-l {
     @media screen and (max-width: 515px){
         @content; 
     }
     
 }
-
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width:1440px) {
 .tematica__imagen {
     width: 100%;
@@ -26,14 +28,25 @@
     font-size: 40px;
 }
 }
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width:1250px) {
+.nosotros__div__titulo__texto__imagen {
+    display: none;
+}
+.copyright {
+    display: none;
+}
+}
+/*----MEDIA QUERIES 767-----*/
 @media (max-width:767px) {
 .tematica__imagen__texto {
-    font-size: 30px;
+    font-size: 27px;
 }
 }
+/*----MEDIA QUERIES 515-----*/
 @media (max-width:515px) {
 .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
 }
 .footer {
     flex-wrap: wrap;
@@ -43,6 +56,7 @@
     font-size: 35px;
 }
 }
+/*----MEDIA QUERIES 375-----*/
 @media (max-width:375px) {
 .tematica__imagen {
     width: 100%;

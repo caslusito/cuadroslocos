@@ -14,11 +14,11 @@
     "img1 img2"
     "img3 img4";
     @include movil{
-        display: flex;
+        display: $flexible;
         flex-direction: column;
     }
     @include movil-l{
-        display: flex;
+        display: $flexible;
         flex-direction: column;
     }
 }

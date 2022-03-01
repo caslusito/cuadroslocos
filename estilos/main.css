@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quando&display=swap");
+/*----VARS-----*/
+/*----RESET-----*/
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +9,11 @@
   font-family: 'Quando', serif;
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -16,15 +23,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -36,6 +55,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
@@ -64,6 +84,11 @@
   color: #200000;
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -73,15 +98,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -93,6 +130,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
@@ -358,6 +396,11 @@
   border: 10px solid black;
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -367,15 +410,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -387,6 +442,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
@@ -504,6 +560,11 @@
   background: #c7a430;
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -513,15 +574,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -533,6 +606,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
@@ -581,7 +655,19 @@
 
 @media screen and (max-width: 320px) {
   .galeria img {
-    width: 75%;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .galeria img {
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galeria img {
+    margin-left: 1px;
   }
 }
 
@@ -624,12 +710,6 @@
   max-height: 60vh;
 }
 
-@media screen and (max-width: 320px) {
-  .light-box img {
-    width: 80%;
-  }
-}
-
 .light-box:target {
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -668,6 +748,11 @@
   text-align: center;
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -677,15 +762,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -697,6 +794,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
@@ -756,6 +854,11 @@
   margin: 5px;
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -765,15 +868,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -785,6 +900,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
@@ -817,6 +933,10 @@
   height: 65vh;
 }
 
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -826,15 +946,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -846,12 +978,18 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
   }
 }
 
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
 @media (max-width: 1440px) {
   .tematica__imagen {
     width: 100%;
@@ -861,15 +999,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .tematica__imagen__texto {
-    font-size: 30px;
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
   }
 }
 
+/*----MEDIA QUERIES 767-----*/
+@media (max-width: 767px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
 @media (max-width: 515px) {
   .tematica__imagen__texto {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -881,6 +1031,7 @@
   }
 }
 
+/*----MEDIA QUERIES 375-----*/
 @media (max-width: 375px) {
   .tematica__imagen {
     width: 100%;
