@@ -14,10 +14,12 @@
     "img1 img2"
     "img3 img4";
     @include movil{
-        align-items: center;
         display: flex;
         flex-direction: column;
-        gap: 35px;
+    }
+    @include movil-l{
+        display: flex;
+        flex-direction: column;
     }
 }
 

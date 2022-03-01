@@ -26,9 +26,6 @@
   .tematica__imagen__texto {
     font-size: 25px;
   }
-  .tematica__imagen__texto {
-    font-size: 20px;
-  }
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -85,9 +82,6 @@
 @media (max-width: 515px) {
   .tematica__imagen__texto {
     font-size: 25px;
-  }
-  .tematica__imagen__texto {
-    font-size: 20px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -383,9 +377,6 @@
   .tematica__imagen__texto {
     font-size: 25px;
   }
-  .tematica__imagen__texto {
-    font-size: 20px;
-  }
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -531,9 +522,6 @@
 @media (max-width: 515px) {
   .tematica__imagen__texto {
     font-size: 25px;
-  }
-  .tematica__imagen__texto {
-    font-size: 20px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -699,9 +687,6 @@
   .tematica__imagen__texto {
     font-size: 25px;
   }
-  .tematica__imagen__texto {
-    font-size: 20px;
-  }
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -790,9 +775,6 @@
   .tematica__imagen__texto {
     font-size: 25px;
   }
-  .tematica__imagen__texto {
-    font-size: 20px;
-  }
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -854,9 +836,6 @@
   .tematica__imagen__texto {
     font-size: 25px;
   }
-  .tematica__imagen__texto {
-    font-size: 20px;
-  }
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -891,9 +870,6 @@
 @media (max-width: 515px) {
   .tematica__imagen__texto {
     font-size: 25px;
-  }
-  .tematica__imagen__texto {
-    font-size: 20px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -931,9 +907,6 @@
 
 @media screen and (max-width: 320px) {
   .container {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -941,7 +914,18 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

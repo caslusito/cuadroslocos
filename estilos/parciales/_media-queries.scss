@@ -11,6 +11,12 @@
     }
     
 }
+@mixin movil-l {
+    @media screen and (max-width: 515px){
+        @content; 
+    }
+    
+}
 
 @media (max-width:1440px) {
 .tematica__imagen {
@@ -28,9 +34,6 @@
 @media (max-width:515px) {
 .tematica__imagen__texto {
     font-size: 25px;
-}
-.tematica__imagen__texto {
-    font-size: 20px;
 }
 .footer {
     flex-wrap: wrap;
