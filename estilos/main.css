@@ -1230,4 +1230,110 @@
   -ms-grid-column: 2;
   grid-area: img4;
 }
+
+/*----VARS-----*/
+/*----MIXIN TABLET-----*/
+/*----MIXIN MOVIL-----*/
+/*----MIXIN MOVIL-L-----*/
+/*----MEDIA QUERIES 1440-----*/
+@media (max-width: 1440px) {
+  .tematica__imagen {
+    width: 100%;
+  }
+  .tematica__imagen__texto {
+    font-size: 40px;
+  }
+}
+
+/*----MEDIA QUERIES 1250-----*/
+@media (max-width: 1250px) {
+  .nosotros__div__titulo__texto__imagen {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+}
+
+/*----MEDIA QUERIES 800-----*/
+@media (max-width: 800px) {
+  .container-form__form textarea {
+    max-width: 310px;
+    min-width: 310px;
+    max-height: 220px;
+    min-height: 220px;
+  }
+}
+
+/*----MEDIA QUERIES 768-----*/
+@media (max-width: 768px) {
+  .tematica__imagen__texto {
+    font-size: 27px;
+  }
+  .container-form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+/*----MEDIA QUERIES 515-----*/
+@media (max-width: 515px) {
+  .tematica__imagen__texto {
+    font-size: 30px;
+  }
+  .footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 400px;
+  }
+  .tituloPrincipal {
+    font-size: 35px;
+  }
+}
+
+/*----MEDIA QUERIES 375-----*/
+@media (max-width: 375px) {
+  .tematica__imagen {
+    width: 100%;
+  }
+}
+
+/*----404-----*/
+.body-404 {
+  background: #ffd2d2;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  line-height: 3;
+  color: #434343;
+}
+
+.boton-404 {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: black;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=main.css.map */
