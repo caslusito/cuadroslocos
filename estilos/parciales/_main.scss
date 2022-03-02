@@ -11,6 +11,7 @@
     &__div {
         width: 100%;
         opacity: 0.9;
+        /*----MEDIAQUERIES-----*/
         @include movil{
             width: auto;
             height: auto;
@@ -26,6 +27,7 @@
         &__titulo {
             margin: 5rem ;
             text-align: center;
+            /*----MEDIAQUERIES-----*/
             @include movil{
                 text-align: center;
                 margin-bottom: auto;
@@ -41,6 +43,7 @@
                 border-radius: 5px;
                 text-align: justify;
                 margin: 1.5rem;
+                /*----MEDIAQUERIES-----*/
                 @include movil{
                     font-size: 15px;
                     margin: 0;
@@ -56,6 +59,7 @@
                     margin-right: 15px;
                     margin-left: 55px;
                     border: 1px solid black ;
+                    /*----MEDIAQUERIES-----*/
                     @include movil{
                         display: none;
                     }
@@ -79,6 +83,7 @@
         width: 90vh;
         margin-top: 1rem;
         margin-right: 1rem;
+        /*----MEDIAQUERIES-----*/
         @include movil{
             width: 50%;
         }
@@ -97,6 +102,7 @@
                     left: 50%;
                     transform: translate(-50% , -50%);
                     text-shadow: 0 0 8px black;
+                /*----MEDIAQUERIES-----*/
                 @include movil{
                 font-size: 20px;
             }
@@ -121,6 +127,7 @@
     border-radius: 6px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
     cursor: pointer;
+    /*----MEDIAQUERIES-----*/
     @include movil{
         margin-top: 2rem;
     }

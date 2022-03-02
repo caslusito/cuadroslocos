@@ -4,7 +4,7 @@
 /*----GALERIA-----*/
 
 .linea {
-    background: #ffd2d2;
+    background: $color;
     height: 5px;
     width: 100%;
     display: block;
@@ -34,6 +34,7 @@
     height: 300px;
     object-fit: cover;
     transition: transform 0.5s;
+    /*----MEDIAQUERIES-----*/
     @include movil{
         width: 85%;
     }
@@ -59,6 +60,7 @@
     justify-items: center;
     align-items: center;
     transform: scale(0);
+    /*----MEDIAQUERIES-----*/
     @include movil{
         width: 100%;
     }
@@ -68,6 +70,7 @@
 .light-box img {
     width: 100%;
     max-height: 60vh;
+    /*----MEDIAQUERIES-----*/
     @include tablet{
         width: 91%;
     }
@@ -90,6 +93,7 @@
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
+    /*----MEDIAQUERIES-----*/
     @include movil{
         top: 20px;
         right: 20px;
